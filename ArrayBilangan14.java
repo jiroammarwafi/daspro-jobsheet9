@@ -1,17 +1,11 @@
 public class ArrayBilangan14{
     public static void main(String[] args) {
-        
-        int[] bil = new int[4]; // array tipe integer dengan nama variabel bil, set kapasitas nya sejumlah 4 elemen
+         // array integer menyimpan nilai saat deklarasi
+        int[] bil = {5, 13, -7, 17};
 
-        bil[0] = 5;
-        bil[1] = 13;
-        bil[2] = -7;
-        bil[3] = 17;
-
-        System.out.println(bil[0]);
-        System.out.println(bil[1]);
-        System.out.println(bil[2]);
-        System.out.println(bil[3]);
-
+        // looping keluaran array bil hingga 
+        for (int i = 0; i <= 4; i++){
+            System.out.println(bil[i]);
+        }
     }
 }
